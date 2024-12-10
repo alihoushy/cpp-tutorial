@@ -1,14 +1,15 @@
-//
-//  main.cpp
-//  cpp-tutorial
-//
-//  Created by Ali Houshyaripour on 9/20/1403 AP.
-//
-
 #include <iostream>
 
+using namespace std;
+
+// Function prototypes
+void runFunctionsExample();
+void runPointersVsReferencesExample();
+
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
-    return 0;
+    cout << "Running functions example:\n";
+    runFunctionsExample();
+
+    cout << "\nRunning pointers vs references example:\n";
+    runPointersVsReferencesExample();
 }
