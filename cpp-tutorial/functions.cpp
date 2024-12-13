@@ -15,6 +15,19 @@ void fun(int* ptr)
     *ptr = 85;
 }
 
+// Function to create an array from size, and return a pointer to the array
+int* createArray(int size)
+{
+    int* arr = new int[size]; // Dynamically allocate mameory for an array
+
+    for (int i = 0; i < size; ++i)
+    {
+        arr[i] = i * 10; // Initialize array elements
+    }
+
+    return arr; // Return the pointer to the array
+}
+
 void runFunctionsExample()
 {
     int firstNumber = 10, secondNumber = 20;
@@ -32,4 +45,9 @@ void runFunctionsExample()
     cout << "Funny number is: " << funnyNumber << endl;
 
     // --------------------
+    
+    int arraySize = 10;
+    int* firstArray = createArray(arraySize);
+    
+    // Print the array
 }

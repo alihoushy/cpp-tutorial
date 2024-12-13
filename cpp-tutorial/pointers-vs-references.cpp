@@ -33,4 +33,30 @@ void runPointersVsReferencesExample()
 
     // --------------------
     // Memory Address
+    int fifthNumber = 20;
+    int &fifthNumberRef = fifthNumber; // Reference to fifthNumber
+
+    cout << "Memory address of fifthNumber: " << &fifthNumber << endl;
+    cout << "Memory address of fifthNumberRef: " << &fifthNumberRef << endl;
+
+    // --------------------
+    // Null Value
+    // A pointer can be assigned NULL directly, whereas a reference cannot be.
+
+    // --------------------
+    // Indirection
+    // We can have a pointer to pointer, known as a double pointer
+    int sixthNumber = 25;
+    int *sixthNumberRef;
+    int **refToSixthNumberRef;
+
+    sixthNumberRef = &sixthNumber; // Reference to sixthNumber
+    refToSixthNumberRef = &sixthNumberRef; // Reference to sixthNumberRef
+
+    cout << "Reference to sixthNumber: " << sixthNumberRef << endl;
+    cout << "Reference to sixthNumberRef: " << refToSixthNumberRef << endl;
+
+    // --------------------
+    // Conclusion
+    // Ultimately, the choise between references and pointers depends on your specifics needs. References are more suitable for situations where simplicity and code readability are important, white pointers are more applicable for more complex tasks and when you need finer control over memory management.
 }
