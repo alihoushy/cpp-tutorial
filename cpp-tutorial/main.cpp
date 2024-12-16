@@ -8,6 +8,7 @@ void runPointersVsReferencesExample();
 void runCallbackFunctionsExample();
 void runStringExample();
 void runRecursionExample();
+void runOverloadingExample();
 
 int main(int argc, const char * argv[]) {
     cout << "Running functions example:\n";
@@ -24,4 +25,7 @@ int main(int argc, const char * argv[]) {
 
     cout << "\nRunning recursion example:\n";
     runRecursionExample();
+
+    cout << "\nRunning overloading example:\n";
+    runOverloadingExample();
 }
