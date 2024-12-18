@@ -9,6 +9,9 @@ void runCallbackFunctionsExample();
 void runStringExample();
 void runRecursionExample();
 void runOverloadingExample();
+void runFriendClassAndFunctionExample();
+void runDataTypesExample();
+void runInputOutputExample();
 
 int main(int argc, const char * argv[]) {
     cout << "Running functions example:\n";
@@ -28,4 +31,13 @@ int main(int argc, const char * argv[]) {
 
     cout << "\nRunning overloading example:\n";
     runOverloadingExample();
+
+    cout << "\nRunning friend class and function example:\n";
+    runFriendClassAndFunctionExample();
+
+    cout << "\nRunning data types example:\n";
+    runDataTypesExample();
+
+    cout << "\nRunning input output example:\n";
+    runInputOutputExample();
 }
