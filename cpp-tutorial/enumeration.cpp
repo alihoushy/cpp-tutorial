@@ -3,16 +3,7 @@
 using namespace std;
 
 // Declaring enum
-enum Week
-{
-    Mon,
-    Tue,
-    Wed,
-    Thur,
-    Fri,
-    Sat,
-    Sun
-};
+enum Week { Mon, Tue, Wed, Thur, Fri, Sat, Sun };
 
 void runEnumerationExample()
 {

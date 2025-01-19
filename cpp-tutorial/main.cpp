@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cstdio>
 
 using namespace std;
 
@@ -15,47 +15,51 @@ using namespace std;
 //void runArraysExample();
 //void runClassExample();
 //void runStructureExample();
-void runUnionExample();
+//void runUnionExample();
 //void runEnumerationExample();
 //void runTypedefAndUsingExample();
+void runAlgorithmExample();
 
 int main(int argc, const char * argv[]) {
-//    cout << "Running functions example:\n";
+//    printf("Running functions example:\n");
 //    runFunctionsExample();
 //
-//    cout << "\nRunning pointers vs references example:\n";
+//    printf("\nRunning pointers vs references example:\n");
 //    runPointersVsReferencesExample();
 //
-//    cout << "\nRunning callback function example:\n";
+//    printf("\nRunning callback function example:\n");
 //    runCallbackFunctionsExample();
 //
-//    cout << "\nRunning string example:\n";
+//    printf("\nRunning string example:\n");
 //    runStringExample();
 //
-//    cout << "\nRunning recursion example:\n";
+//    printf("\nRunning recursion example:\n");
 //    runRecursionExample();
 //
-//    cout << "\nRunning overloading example:\n";
+//    printf("\nRunning overloading example:\n");
 //    runOverloadingExample();
 //
-//    cout << "\nRunning friend class and function example:\n";
+//    printf("\nRunning friend class and function example:\n");
 //    runFriendClassAndFunctionExample();
 //
-//    cout << "\nRunning data types example:\n";
+//    printf("\nRunning data types example:\n");
 //    runDataTypesExample();
 //
-//    cout << "\nRunning input output example:\n";
+//    printf("\nRunning input output example:\n");
 //    runInputOutputExample();
 //
-//    cout << "\nRunning arrays example:\n";
+//    printf("\nRunning arrays example:\n");
 //    runArraysExample();
 //
-//    cout << "\nRunning class example:\n";
+//    printf("\nRunning class example:\n");
 //    runClassExample();
 //
-//    cout << "\nRunning structure example:\n";
+//    printf("\nRunning structure example:\n");
 //    runStructureExample();
 //
-    cout << "\nRunning union example:\n";
-    runUnionExample();
+//    printf("\nRunning union example:\n");
+//    runUnionExample();
+
+    printf("\nRunning algorithm example:\n");
+    runAlgorithmExample();
 }

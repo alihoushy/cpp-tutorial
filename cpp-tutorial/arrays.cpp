@@ -1,4 +1,4 @@
-#include <iostream>
+#include <cstdio>
 
 using namespace std;
 
@@ -46,15 +46,15 @@ void runArraysExample()
     int fourthArray[] = { 1, 2, 3, 4, 5 };
 
     // Size of one element of an array
-    cout << "Size of fourthArray[0]: " << sizeof(fourthArray[0]) << endl;
+    printf("Size of fourthArray[0]: %lu\n", sizeof(fourthArray[0]));
 
     // Size of array 'arr'
-    cout << "Size of fourthArray: " << sizeof(fourthArray) << endl;
+    printf("Size of fourthArray: %lu\n", sizeof(fourthArray));
 
     // Length of an array
     int fourthArrayLength = sizeof(fourthArray) / sizeof(fourthArray[0]);
 
-    cout << "Length of the fourthArray: " << fourthArrayLength << endl;
+    printf("Length of the fourthArray: %d\n", fourthArrayLength);
 
     // --------------------
     // Relation between Arrays and Pointers
@@ -64,21 +64,21 @@ void runArraysExample()
     int* fivethArrayPtr = fivethArray;
 
     // Printing address of the arrary using array name
-    cout << "Memory address of fivethArray: " << &fivethArray << endl;
+    printf("Memory address of fivethArray: %s\n", &fivethArray);
 
     // Printing address of the array using pointer
-    cout << "Memory address of fivethArray: " << fivethArrayPtr << endl;
+    printf("Memory address of fivethArray: %d\n", fivethArrayPtr);
 
     // --------------------
     // Printing Array Elements without Indexing
     int sixthArray[] = { 11, 22, 33, 44 };
 
     // Print elements of an array
-    cout << "elements of the sixthArray:" << endl;
-    cout << "first: " << *sixthArray << endl;
-    cout << "Second: " << *(sixthArray + 1) << endl;
-    cout << "Third: " << *(sixthArray + 2) << endl;
-    cout << "fourth: " << *(sixthArray + 3) << endl;
+    printf("elements of the sixthArray:\n");
+    printf("first: %d\n", *sixthArray);
+    printf("Second: %d\n", *(sixthArray + 1));
+    printf("Third: %d\n", *(sixthArray + 2));
+    printf("fourth: %d\n", *(sixthArray + 3));
 
     // --------------------
     // Passing Array as a Pointer (to Function)
@@ -112,12 +112,12 @@ void runArraysExample()
     }
 
     // Printing the element of seventhArray
-    cout << "seventhArray:\n";
+    printf("seventhArray:\n");
     for (int i = 0; i < 4; i++) {
         for (int j = 0; j < 4; j++) {
-            cout << seventhArray[i][j] << " ";
+            printf("%d ", seventhArray[i][j]);
         }
-        cout << endl;
+        printf("\n");
     }
 
     // --------------------
@@ -135,16 +135,16 @@ void runArraysExample()
     }
 
     // printing the array
-    cout << "eighthArray:\n";
+    printf("eighthArray:\n");
     for (int i = 0; i < 3; i++) {
-        cout << i << "st layer:" << endl;
+        printf("%dst layer:\n", i);
         for (int j = 0; j < 3; j++) {
             for (int k = 0; k < 3; k++) {
-                cout << eighthArray[i][j][k] << " ";
+                printf("%d ", eighthArray[i][j][k]);
             }
-            cout << endl;
+            printf("\n");
         }
-        cout << endl;
+        printf("\n");
     }
     
     // --------------------
