@@ -1,65 +1,76 @@
-#include <cstdio>
+#include <iostream>
 
-using namespace std;
+//void runFunctionsExamples();
+//void runPointersVsReferencesExamples();
+//void runCallbackFunctionsExamples();
+//void runStringExamples();
+//void runRecursionExamples();
+//void runOverloadingExamples();
+//void runFriendClassAndFunctionExamples();
+//void runDataTypesExamples();
+//void runInputOutputExamples();
+//void runArraysExamples();
+//void runClassExamples();
+//void runStructureExamples();
+//void runUnionExamples();
+//void runEnumerationExamples();
+//void runTypedefAndUsingExamples();
+//void runAlgorithmExamples();
+//void runNumericExamples();
+void runSudokuGame();
 
-// Function prototypes
-//void runFunctionsExample();
-//void runPointersVsReferencesExample();
-//void runCallbackFunctionsExample();
-//void runStringExample();
-//void runRecursionExample();
-//void runOverloadingExample();
-//void runFriendClassAndFunctionExample();
-//void runDataTypesExample();
-//void runInputOutputExample();
-//void runArraysExample();
-//void runClassExample();
-//void runStructureExample();
-//void runUnionExample();
-//void runEnumerationExample();
-//void runTypedefAndUsingExample();
-void runAlgorithmExample();
-
-int main(int argc, const char * argv[]) {
-//    printf("Running functions example:\n");
-//    runFunctionsExample();
+int main() {
+//    std::cout << "Running functions examples:\n";
+//    runFunctionsExamples();
 //
-//    printf("\nRunning pointers vs references example:\n");
-//    runPointersVsReferencesExample();
+//    std::cout << "\nRunning pointers vs references examples:\n";
+//    runPointersVsReferencesExamples();
 //
-//    printf("\nRunning callback function example:\n");
-//    runCallbackFunctionsExample();
+//    std::cout << "\nRunning callback function examples:\n";
+//    runCallbackFunctionsExamples();
 //
-//    printf("\nRunning string example:\n");
-//    runStringExample();
+//    std::cout << "\nRunning string examples:\n";
+//    runStringExamples();
 //
-//    printf("\nRunning recursion example:\n");
-//    runRecursionExample();
+//    std::cout << "\nRunning recursion examples:\n";
+//    runRecursionExamples();
 //
-//    printf("\nRunning overloading example:\n");
-//    runOverloadingExample();
+//    std::cout << "\nRunning overloading examples:\n";
+//    runOverloadingExamples();
 //
-//    printf("\nRunning friend class and function example:\n");
-//    runFriendClassAndFunctionExample();
+//    std::cout << "\nRunning friend class and function examples:\n";
+//    runFriendClassAndFunctionExamples();
 //
-//    printf("\nRunning data types example:\n");
-//    runDataTypesExample();
+//    std::cout << "\nRunning data types examples:\n";
+//    runDataTypesExamples();
 //
-//    printf("\nRunning input output example:\n");
-//    runInputOutputExample();
+//    std::cout << "\nRunning input output examples:\n";
+//    runInputOutputExamples();
 //
-//    printf("\nRunning arrays example:\n");
-//    runArraysExample();
+//    std::cout << "\nRunning arrays examples:\n";
+//    runArraysExamples();
 //
-//    printf("\nRunning class example:\n");
-//    runClassExample();
+//    std::cout << "\nRunning class examples:\n";
+//    runClassExamples();
 //
-//    printf("\nRunning structure example:\n");
-//    runStructureExample();
+//    std::cout << "\nRunning structure examples:\n";
+//    runStructureExamples();
 //
-//    printf("\nRunning union example:\n");
-//    runUnionExample();
-
-    printf("\nRunning algorithm example:\n");
-    runAlgorithmExample();
+//    std::cout << "\nRunning union examples:\n";
+//    runUnionExamples();
+//
+//    std::cout << "\nRunning enumeration examples:\n";
+//    runEnumerationExamples();
+//
+//    std::cout << "\nRunning typedef and using examples:\n";
+//    runTypedefAndUsingExamples();
+//
+//    std::cout << "\nRunning algorithm examples:\n";
+//    runAlgorithmExamples();
+//
+//    std::cout << "\nRunning numeric examples:\n";
+//    runNumericExamples();
+//
+    std::cout << "\nRunning sudoku game:\n";
+    runSudokuGame();
 }

@@ -41,7 +41,7 @@ public:
     }
 };
 
-void runOverloadingExample()
+void runOverloadingExamples()
 {
     // Create two bank accounts
     BankAccount firstAccount("Ali", 200.0);

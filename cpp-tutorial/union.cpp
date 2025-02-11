@@ -22,7 +22,7 @@ public:
     };
 };
 
-void runUnionExample()
+void runUnionExamples()
 {
     // Two different types of decleration:
     // union Union_Name var1;

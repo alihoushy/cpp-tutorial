@@ -74,7 +74,7 @@ struct Library {
     }
 };
 
-void runStructureExample() {
+void runStructureExamples() {
     // Create a library
     Library library;
 

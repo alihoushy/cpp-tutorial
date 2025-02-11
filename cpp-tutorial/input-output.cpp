@@ -3,7 +3,7 @@
 
 using namespace std;
 
-void runInputOutputExample()
+void runInputOutputExamples()
 {
     string name;
     int age;

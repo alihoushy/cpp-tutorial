@@ -60,7 +60,7 @@ void printMinimumNumber(const vector<int>& arr)
     cout << "Minimum number in the array: " << minNumber << endl;
 }
 
-void runFunctionsExample()
+void runFunctionsExamples()
 {
     int firstNumber = 10, secondNumber = 20;
     

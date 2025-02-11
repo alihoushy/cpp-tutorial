@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void runDataTypesExample() {
+void runDataTypesExamples() {
     // Macro Constants
     cout << "Macro Constants:" << endl;
     cout << "PI: " << PI << endl;

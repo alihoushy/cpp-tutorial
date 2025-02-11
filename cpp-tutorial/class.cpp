@@ -52,7 +52,7 @@ public:
     }
 };
 
-void runClassExample()
+void runClassExamples()
 {
     // Default constructor
     Document doc1;

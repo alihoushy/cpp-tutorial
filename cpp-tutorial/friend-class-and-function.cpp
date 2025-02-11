@@ -45,7 +45,7 @@ void displayCarDetails(const Car& car) {
     cout << "Mileage: " << car.mileage << " miles\n";
 }
 
-void runFriendClassAndFunctionExample()
+void runFriendClassAndFunctionExamples()
 {
     // Create a Car object
     Car myCar("Alice", "Toyota Corolla", 15000);

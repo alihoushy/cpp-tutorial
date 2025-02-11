@@ -23,6 +23,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		33B63BCD2D4800B000FFC171 /* sudoku-game */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "sudoku-game";
+			sourceTree = "<group>";
+		};
 		33ECEE4F2D08AB9F00A785C1 /* cpp-tutorial */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "cpp-tutorial";
@@ -44,6 +49,7 @@
 		33ECEE442D08AB9F00A785C1 = {
 			isa = PBXGroup;
 			children = (
+				33B63BCD2D4800B000FFC171 /* sudoku-game */,
 				33ECEE4F2D08AB9F00A785C1 /* cpp-tutorial */,
 				33ECEE4E2D08AB9F00A785C1 /* Products */,
 			);
@@ -73,6 +79,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				33B63BCD2D4800B000FFC171 /* sudoku-game */,
 				33ECEE4F2D08AB9F00A785C1 /* cpp-tutorial */,
 			);
 			name = "cpp-tutorial";

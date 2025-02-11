@@ -4,7 +4,7 @@
 
 using namespace std;
 
-void runPointersVsReferencesExample()
+void runPointersVsReferencesExamples()
 {
     // Initialization
     int index = 1;          // Declare and initialize an integer variable

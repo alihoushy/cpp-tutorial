@@ -52,7 +52,7 @@ string reverseString(const string& str) {
     return reverseString(str.substr(1)) + str[0]; // Non-tail recursion
 }
 
-void runRecursionExample() {
+void runRecursionExamples() {
     // Indirect Recursion
     string message = "Hello, this is a test message!\n";
     int maxAttempts = 3;

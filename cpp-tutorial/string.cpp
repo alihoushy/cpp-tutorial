@@ -22,7 +22,7 @@ void printStringByPointer(const string *str)
     cout << *str << endl;
 }
 
-void runStringExample()
+void runStringExamples()
 {
     // Pass by Value
     string stringByValue = "This is pass string by value.";
